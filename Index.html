@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/Style.css" />
+
+    <script defer src="/Script.js"></script>
+
+    <title>Digital clock with Alarm</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="./Assets/clock.svg" alt="Alarm clock image" />
+      <h1 class="digital_clock">00:00:00</h1>
+      <div class="contents">
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Mintues" selected hidden>Minutes</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn-alarm">Set Alaram</button>
+    </div>
+  </body>
+</html>
